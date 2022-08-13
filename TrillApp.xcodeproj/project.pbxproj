@@ -32,6 +32,9 @@
 		3193E9B928A775D400AABF73 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9B828A775D400AABF73 /* ArticleViewController.swift */; };
 		3193E9BC28A7761C00AABF73 /* ArticleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9BB28A7761C00AABF73 /* ArticleCollectionViewCell.swift */; };
 		3193E9BE28A7762B00AABF73 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9BD28A7762B00AABF73 /* ArticleViewModel.swift */; };
+		3193E9C028A7767F00AABF73 /* FevCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9BF28A7767F00AABF73 /* FevCollectionViewCell.swift */; };
+		3193E9C228A7768700AABF73 /* FavouritViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9C128A7768700AABF73 /* FavouritViewController.swift */; };
+		3193E9C428A7769500AABF73 /* FavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9C328A7769500AABF73 /* FavouriteViewModel.swift */; };
 		7EF459A818B4C516A505F107 /* Pods_TrillApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */; };
 		E5734E5EF4C1229DF8E45D56 /* Pods_TrillAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +87,9 @@
 		3193E9B828A775D400AABF73 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		3193E9BB28A7761C00AABF73 /* ArticleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewCell.swift; sourceTree = "<group>"; };
 		3193E9BD28A7762B00AABF73 /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		3193E9BF28A7767F00AABF73 /* FevCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FevCollectionViewCell.swift; sourceTree = "<group>"; };
+		3193E9C128A7768700AABF73 /* FavouritViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritViewController.swift; sourceTree = "<group>"; };
+		3193E9C328A7769500AABF73 /* FavouriteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
 		3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D10274BFF4A4D51FED2AF9 /* Pods-TrillAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrillAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrillAppTests/Pods-TrillAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +210,7 @@
 				3193E9BA28A7760F00AABF73 /* Cells */,
 				3193E9B628A7759C00AABF73 /* ArticleTabBarController.swift */,
 				3193E9B828A775D400AABF73 /* ArticleViewController.swift */,
+				3193E9C128A7768700AABF73 /* FavouritViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				3193E9BD28A7762B00AABF73 /* ArticleViewModel.swift */,
+				3193E9C328A7769500AABF73 /* FavouriteViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 		3193E9BA28A7760F00AABF73 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3193E9BF28A7767F00AABF73 /* FevCollectionViewCell.swift */,
 				3193E9BB28A7761C00AABF73 /* ArticleCollectionViewCell.swift */,
 			);
 			path = Cells;
@@ -530,8 +539,11 @@
 				3193E99F28A76FC500AABF73 /* String+Additions.swift in Sources */,
 				3193E9A528A771DD00AABF73 /* ArticleModel.swift in Sources */,
 				3193E9B928A775D400AABF73 /* ArticleViewController.swift in Sources */,
+				3193E9C228A7768700AABF73 /* FavouritViewController.swift in Sources */,
 				3193E9AF28A7743100AABF73 /* APIService.swift in Sources */,
+				3193E9C428A7769500AABF73 /* FavouriteViewModel.swift in Sources */,
 				3193E96928A76D7D00AABF73 /* SceneDelegate.swift in Sources */,
+				3193E9C028A7767F00AABF73 /* FevCollectionViewCell.swift in Sources */,
 				3193E9BC28A7761C00AABF73 /* ArticleCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
