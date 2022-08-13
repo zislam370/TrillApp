@@ -27,6 +27,7 @@
 		3193E9AD28A7736600AABF73 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = 3193E9AC28A7736600AABF73 /* Network */; };
 		3193E9AF28A7743100AABF73 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9AE28A7743100AABF73 /* APIService.swift */; };
 		3193E9B128A774B500AABF73 /* UICustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9B028A774B500AABF73 /* UICustomButton.swift */; };
+		3193E9B328A774E800AABF73 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9B228A774E800AABF73 /* AppConstants.swift */; };
 		7EF459A818B4C516A505F107 /* Pods_TrillApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */; };
 		E5734E5EF4C1229DF8E45D56 /* Pods_TrillAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		3193E9AC28A7736600AABF73 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
 		3193E9AE28A7743100AABF73 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		3193E9B028A774B500AABF73 /* UICustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomButton.swift; sourceTree = "<group>"; };
+		3193E9B228A774E800AABF73 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D10274BFF4A4D51FED2AF9 /* Pods-TrillAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrillAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrillAppTests/Pods-TrillAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				3193E9B028A774B500AABF73 /* UICustomButton.swift */,
+				3193E9B228A774E800AABF73 /* AppConstants.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				3193E9B128A774B500AABF73 /* UICustomButton.swift in Sources */,
 				3193E96B28A76D7D00AABF73 /* ViewController.swift in Sources */,
 				3193E9A228A7704000AABF73 /* UIImageView.swift in Sources */,
+				3193E9B328A774E800AABF73 /* AppConstants.swift in Sources */,
 				3193E96728A76D7D00AABF73 /* AppDelegate.swift in Sources */,
 				3193E9A728A7721700AABF73 /* DBManager.swift in Sources */,
 				3193E9A328A7704000AABF73 /* UIImage.swift in Sources */,
