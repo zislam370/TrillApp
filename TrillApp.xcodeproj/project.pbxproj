@@ -99,6 +99,14 @@
 		3193E96528A76D7D00AABF73 /* TrillApp */ = {
 			isa = PBXGroup;
 			children = (
+				3193E99D28A76F4900AABF73 /* Extensions */,
+				3193E99C28A76F2400AABF73 /* Network */,
+				3193E99B28A76F1000AABF73 /* Services */,
+				3193E99A28A76F0700AABF73 /* ViewModels */,
+				3193E99928A76EFE00AABF73 /* Models */,
+				3193E99828A76EF600AABF73 /* Views */,
+				3193E99728A76EEF00AABF73 /* Core */,
+				3193E99628A76EDC00AABF73 /* Managers */,
 				3193E96628A76D7D00AABF73 /* AppDelegate.swift */,
 				3193E96828A76D7D00AABF73 /* SceneDelegate.swift */,
 				3193E96A28A76D7D00AABF73 /* ViewController.swift */,
@@ -125,6 +133,62 @@
 				3193E98928A76D7F00AABF73 /* TrillAppUITestsLaunchTests.swift */,
 			);
 			path = TrillAppUITests;
+			sourceTree = "<group>";
+		};
+		3193E99628A76EDC00AABF73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3193E99728A76EEF00AABF73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3193E99828A76EF600AABF73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3193E99928A76EFE00AABF73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3193E99A28A76F0700AABF73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3193E99B28A76F1000AABF73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3193E99C28A76F2400AABF73 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3193E99D28A76F4900AABF73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
