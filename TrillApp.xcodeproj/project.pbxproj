@@ -17,6 +17,8 @@
 		3193E98828A76D7F00AABF73 /* TrillAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E98728A76D7F00AABF73 /* TrillAppUITests.swift */; };
 		3193E98A28A76D7F00AABF73 /* TrillAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E98928A76D7F00AABF73 /* TrillAppUITestsLaunchTests.swift */; };
 		3193E99F28A76FC500AABF73 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E99E28A76FC500AABF73 /* String+Additions.swift */; };
+		3193E9A228A7704000AABF73 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9A028A7704000AABF73 /* UIImageView.swift */; };
+		3193E9A328A7704000AABF73 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9A128A7704000AABF73 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3193E98728A76D7F00AABF73 /* TrillAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrillAppUITests.swift; sourceTree = "<group>"; };
 		3193E98928A76D7F00AABF73 /* TrillAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrillAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3193E99E28A76FC500AABF73 /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		3193E9A028A7704000AABF73 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		3193E9A128A7704000AABF73 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				3193E99E28A76FC500AABF73 /* String+Additions.swift */,
+				3193E9A128A7704000AABF73 /* UIImage.swift */,
+				3193E9A028A7704000AABF73 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,7 +332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3193E96B28A76D7D00AABF73 /* ViewController.swift in Sources */,
+				3193E9A228A7704000AABF73 /* UIImageView.swift in Sources */,
 				3193E96728A76D7D00AABF73 /* AppDelegate.swift in Sources */,
+				3193E9A328A7704000AABF73 /* UIImage.swift in Sources */,
 				3193E99F28A76FC500AABF73 /* String+Additions.swift in Sources */,
 				3193E96928A76D7D00AABF73 /* SceneDelegate.swift in Sources */,
 			);
