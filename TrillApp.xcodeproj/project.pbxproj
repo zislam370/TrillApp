@@ -23,6 +23,7 @@
 		3193E9A528A771DD00AABF73 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9A428A771DD00AABF73 /* ArticleModel.swift */; };
 		3193E9A728A7721700AABF73 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E9A628A7721700AABF73 /* DBManager.swift */; };
 		3193E9A928A772FC00AABF73 /* Result in Resources */ = {isa = PBXBuildFile; fileRef = 3193E9A828A772FC00AABF73 /* Result */; };
+		3193E9AB28A7733C00AABF73 /* Parser in Resources */ = {isa = PBXBuildFile; fileRef = 3193E9AA28A7733C00AABF73 /* Parser */; };
 		7EF459A818B4C516A505F107 /* Pods_TrillApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */; };
 		E5734E5EF4C1229DF8E45D56 /* Pods_TrillAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		3193E9A428A771DD00AABF73 /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		3193E9A628A7721700AABF73 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		3193E9A828A772FC00AABF73 /* Result */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Result; sourceTree = "<group>"; };
+		3193E9AA28A7733C00AABF73 /* Parser */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Parser; sourceTree = "<group>"; };
 		3363188E018EE4DE6AFD4D4A /* Pods_TrillAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6065B4264D71840861A8BA28 /* Pods_TrillApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrillApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D10274BFF4A4D51FED2AF9 /* Pods-TrillAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrillAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TrillAppTests/Pods-TrillAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 		3193E99B28A76F1000AABF73 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3193E9AA28A7733C00AABF73 /* Parser */,
 				3193E9A828A772FC00AABF73 /* Result */,
 			);
 			path = Services;
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3193E9AB28A7733C00AABF73 /* Parser in Resources */,
 				3193E97328A76D7F00AABF73 /* LaunchScreen.storyboard in Resources */,
 				3193E9A928A772FC00AABF73 /* Result in Resources */,
 				3193E97028A76D7F00AABF73 /* Assets.xcassets in Resources */,
