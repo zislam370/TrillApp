@@ -34,7 +34,7 @@ class DBManager {
             }
             do {
                 try self.db?.write {
-                    self.db?.add(article)
+                    self.db?.create(ArticleModel.self,value: article,update:Realm.UpdatePolicy.all)
                     observer(.completed)
                 }
             } catch {
