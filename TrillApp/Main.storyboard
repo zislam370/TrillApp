@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bxU-dv-nEn">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -13,7 +12,7 @@
         <!--TRILL-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ArticleDetailsViewController" id="BYZ-38-t0r" customClass="ArticleDetailsViewController" customModule="TrillDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ArticleDetailsViewController" id="BYZ-38-t0r" customClass="ArticleDetailsViewController" customModule="TrillApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +119,7 @@
         <!--お気に入り-->
         <scene sceneID="sPH-CM-AeM">
             <objects>
-                <viewController id="rRg-Y4-uOZ" customClass="FavouritViewController" customModule="TrillDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rRg-Y4-uOZ" customClass="FavouritViewController" customModule="TrillApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gbn-yF-w4O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,7 +137,7 @@
                                             <inset key="sectionInset" minX="1" minY="10" maxX="1" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FevCollectionViewCell" id="e8t-UC-fA3" customClass="FevCollectionViewCell" customModule="TrillDemo" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FevCollectionViewCell" id="e8t-UC-fA3" customClass="FevCollectionViewCell" customModule="TrillApp" customModuleProvider="target">
                                                 <rect key="frame" x="93" y="10" width="190" height="190"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="MQY-lJ-O53">
@@ -151,7 +150,7 @@
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="flX-Ml-6Kf">
                                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="83"/>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="ディズニーランドでドナルドが「出られなくなってし不謹慎だけど笑ってしまう" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sed-Bv-sg5">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="ディズニーランドでドナルドが「出られなくなってし不謹慎だけど笑ってしまう" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sed-Bv-sg5">
                                                                     <rect key="frame" x="8" y="91" width="154" height="63"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="63" id="rxT-Hp-e0n"/>
@@ -178,7 +177,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77p-yB-hKU" customClass="UICustomButton" customModule="TrillDemo" customModuleProvider="target">
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77p-yB-hKU" customClass="UICustomButton" customModule="TrillApp" customModuleProvider="target">
                                                                     <rect key="frame" x="114" y="162.66666666666666" width="48" height="19"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="Zck-N4-bGf"/>
@@ -278,7 +277,7 @@
         <!--TRILL-->
         <scene sceneID="nZp-8V-UnJ">
             <objects>
-                <viewController id="Cf5-UO-BN2" customClass="ArticleViewController" customModule="TrillDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cf5-UO-BN2" customClass="ArticleViewController" customModule="TrillApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oN0-VU-AXA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,38 +299,36 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </activityIndicatorView>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArticleCollectionViewCell" id="nMe-WG-8ah" customClass="ArticleCollectionViewCell" customModule="TrillDemo" customModuleProvider="target">
-                                                <rect key="frame" x="29.666666666666668" y="0.0" width="316" height="204"/>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArticleCollectionViewCell" id="nMe-WG-8ah" customClass="ArticleCollectionViewCell" customModule="TrillApp" customModuleProvider="target">
+                                                <rect key="frame" x="29.666666666666668" y="0.0" width="316" height="190"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VFA-gA-gzw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="316" height="204"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="316" height="190"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Opg-gP-56H">
-                                                            <rect key="frame" x="10" y="0.0" width="296" height="204"/>
+                                                            <rect key="frame" x="10" y="0.0" width="296" height="190"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="IGp-R8-6Py">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="296" height="97"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="296" height="83"/>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="これは無敵！男性から愛される女性のモテ習慣" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUN-9U-RBX">
-                                                                    <rect key="frame" x="8" y="104" width="282" height="63"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="63" id="5IX-2p-tW8"/>
-                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="mc6-GY-OwL"/>
-                                                                    </constraints>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="2021ベスト化粧水は？】化粧水を変えるだけでこんなに肌質が変わるなんて…美容賢者を感動させたTOP5" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="none" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUN-9U-RBX">
+                                                                    <rect key="frame" x="8" y="91" width="280" height="63.666666666666657"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
+                                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="flok" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxQ-Tk-YNO">
-                                                                    <rect key="frame" x="8" y="184" width="15" height="11"/>
+                                                                    <rect key="frame" x="8" y="171.66666666666666" width="15" height="10.333333333333343"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nS5-me-lS0" customClass="UICustomButton" customModule="TrillDemo" customModuleProvider="target">
-                                                                    <rect key="frame" x="241.66666666666663" y="175" width="48" height="18.666666666666657"/>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nS5-me-lS0" customClass="UICustomButton" customModule="TrillApp" customModuleProvider="target">
+                                                                    <rect key="frame" x="241.66666666666663" y="162.66666666666666" width="48" height="20"/>
                                                                     <constraints>
+                                                                        <constraint firstAttribute="height" constant="20" id="JNl-rr-ccj"/>
                                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="Zqn-s9-bN3"/>
                                                                     </constraints>
                                                                     <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -353,7 +350,7 @@
                                                                     </connections>
                                                                 </button>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="33344 views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZQ-mj-mZQ">
-                                                                    <rect key="frame" x="8" y="175" width="90" height="10"/>
+                                                                    <rect key="frame" x="8" y="162.66666666666666" width="90" height="10"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="lmP-5v-Sqs"/>
                                                                     </constraints>
@@ -365,20 +362,21 @@
                                                             <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                             <constraints>
                                                                 <constraint firstItem="RxQ-Tk-YNO" firstAttribute="leading" secondItem="Opg-gP-56H" secondAttribute="leading" constant="8" id="12J-bW-xCf"/>
-                                                                <constraint firstAttribute="bottom" secondItem="nS5-me-lS0" secondAttribute="bottom" constant="10.5" id="8ZV-Uo-iG8"/>
+                                                                <constraint firstAttribute="bottom" secondItem="nS5-me-lS0" secondAttribute="bottom" constant="7.5" id="8ZV-Uo-iG8"/>
                                                                 <constraint firstItem="IGp-R8-6Py" firstAttribute="top" secondItem="Opg-gP-56H" secondAttribute="top" id="N4A-2c-XRa"/>
                                                                 <constraint firstAttribute="bottom" secondItem="IGp-R8-6Py" secondAttribute="bottom" constant="107" id="NMi-QL-hzy"/>
                                                                 <constraint firstItem="IGp-R8-6Py" firstAttribute="leading" secondItem="Opg-gP-56H" secondAttribute="leading" id="Sr7-hp-6CC"/>
                                                                 <constraint firstAttribute="trailing" secondItem="nS5-me-lS0" secondAttribute="trailing" constant="6.5" id="Yz9-Nz-BPx"/>
                                                                 <constraint firstItem="WUN-9U-RBX" firstAttribute="leading" secondItem="Opg-gP-56H" secondAttribute="leading" constant="8" id="aaR-II-qb7"/>
                                                                 <constraint firstItem="nS5-me-lS0" firstAttribute="top" secondItem="EZQ-mj-mZQ" secondAttribute="top" id="bq4-Io-lTV"/>
-                                                                <constraint firstAttribute="bottom" secondItem="RxQ-Tk-YNO" secondAttribute="bottom" constant="9" id="jI5-08-Vlq"/>
+                                                                <constraint firstAttribute="bottom" secondItem="RxQ-Tk-YNO" secondAttribute="bottom" constant="8" id="jI5-08-Vlq"/>
                                                                 <constraint firstItem="EZQ-mj-mZQ" firstAttribute="leading" secondItem="Opg-gP-56H" secondAttribute="leading" constant="8" id="kKf-MM-Vv8"/>
+                                                                <constraint firstAttribute="height" constant="190" id="kRj-uH-zEo"/>
                                                                 <constraint firstItem="RxQ-Tk-YNO" firstAttribute="top" secondItem="EZQ-mj-mZQ" secondAttribute="bottom" constant="-1" id="pn9-Km-0ZE"/>
                                                                 <constraint firstItem="EZQ-mj-mZQ" firstAttribute="top" secondItem="WUN-9U-RBX" secondAttribute="bottom" constant="8" id="qnd-Pp-lpr"/>
-                                                                <constraint firstAttribute="trailing" secondItem="WUN-9U-RBX" secondAttribute="trailing" constant="6" id="u4t-GH-4nb"/>
+                                                                <constraint firstAttribute="trailing" secondItem="WUN-9U-RBX" secondAttribute="trailing" constant="8" id="u4t-GH-4nb"/>
                                                                 <constraint firstAttribute="trailing" secondItem="IGp-R8-6Py" secondAttribute="trailing" id="v6U-qt-5Fj"/>
-                                                                <constraint firstItem="WUN-9U-RBX" firstAttribute="top" secondItem="IGp-R8-6Py" secondAttribute="bottom" constant="7" id="vU7-HK-MWp"/>
+                                                                <constraint firstItem="WUN-9U-RBX" firstAttribute="top" secondItem="IGp-R8-6Py" secondAttribute="bottom" constant="8" id="vU7-HK-MWp"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
@@ -393,7 +391,7 @@
                                                         <constraint firstItem="Opg-gP-56H" firstAttribute="top" secondItem="VFA-gA-gzw" secondAttribute="top" id="xJg-zZ-IpW"/>
                                                     </constraints>
                                                 </collectionViewCellContentView>
-                                                <size key="customSize" width="316" height="204"/>
+                                                <size key="customSize" width="316" height="190"/>
                                                 <connections>
                                                     <outlet property="articleImage" destination="IGp-R8-6Py" id="5pa-fT-XBa"/>
                                                     <outlet property="fevBtn" destination="nS5-me-lS0" id="9Xh-NZ-LAt"/>
@@ -437,7 +435,7 @@
         <!--Article Tab Bar Controller-->
         <scene sceneID="NDR-cn-igB">
             <objects>
-                <tabBarController id="bxU-dv-nEn" customClass="ArticleTabBarController" customModule="TrillDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="bxU-dv-nEn" customClass="ArticleTabBarController" customModule="TrillApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9vb-sW-nOQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -492,12 +490,15 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="77p-yB-hKU">
+            <size key="intrinsicContentSize" width="20.666666666666668" height="22"/>
+        </designable>
         <designable name="nS5-me-lS0">
             <size key="intrinsicContentSize" width="20.666666666666668" height="22"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="BgV-V5-mIr"/>
+        <segue reference="6gp-lp-hMb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="heart" catalog="system" width="128" height="109"/>

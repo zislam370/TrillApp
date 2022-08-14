@@ -40,11 +40,14 @@ class ArticleDetailsViewController: UIViewController {
             button.setImage(UIImage(systemName: "suit.heart" ), for: .normal)
             self.favViewModel.deleteFavorite(id: article!.id)
             self.isFavorite = false
+            self.showFabAlert( "I deleted " + article!.title + " to my favorites" )
         }
         else{
             button.setImage(UIImage(systemName: "suit.heart.fill" ), for: .normal)
             self.favViewModel.addFavorite(article: article!)
             self.isFavorite = true
+            self.showFabAlert( "I added " + article!.title + " to my favorites" )
+            
         }
     }
     
@@ -58,6 +61,13 @@ class ArticleDetailsViewController: UIViewController {
                 print(error)
             }
             .disposed(by: disposeBag)
+    }
+    
+    // alert for add favorite article
+    private func showFabAlert(_ errorMessage: String) {
+        let controller = UIAlertController(title: "Favourite", message: errorMessage, preferredStyle: .alert)
+        controller.addAction(UIAlertAction(title: "Close", style: .cancel, handler: nil))
+        self.present(controller, animated: true, completion: nil)
     }
 
 }
