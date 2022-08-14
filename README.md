@@ -40,5 +40,5 @@ Self-Idea:
 2.	Show article as a medium group
 3.	Share article link to others
 
-![image](https://user-images.githubusercontent.com/6380065/184522355-0a32c30e-6642-41bb-bf59-382317e0ff37.png)
+
 
