@@ -129,7 +129,6 @@
 				3193E97C28A76D7F00AABF73 /* TrillAppTests */,
 				3193E98628A76D7F00AABF73 /* TrillAppUITests */,
 				3193E96428A76D7D00AABF73 /* Products */,
-				50208EA81C89554340D431B9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,13 +282,6 @@
 				3193E9D028A779D900AABF73 /* ParseHelper.swift */,
 			);
 			path = Parser;
-			sourceTree = "<group>";
-		};
-		50208EA81C89554340D431B9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
